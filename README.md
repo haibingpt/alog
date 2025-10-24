@@ -1,10 +1,10 @@
-# ALog
+# VoiceLog
 
 <img src="Images/Promo.png" style="max-height: 400px" />
 
 ## Installation
 
-[![Download ALog on the App Store](./Images/badge_appstore-lrg.svg)](https://apps.apple.com/us/app/alog/id6451082482)
+[![Download VoiceLog on the App Store](./Images/badge_appstore-lrg.svg)](https://apps.apple.com/us/app/alog/id6451082482)
 
 ## Building the project
 

@@ -1,6 +1,6 @@
 //
 //  PremiumView.swift
-//  ALog
+//  VoiceLog
 //
 //  Created by Xin Du on 2023/07/29.
 //
@@ -49,7 +49,7 @@ struct PremiumView: View {
     private func titleView() -> some View {
         VStack(spacing: 20) {
             Group {
-                Text("ALog ") + Text(L(.premium).capitalized).foregroundColor(.orange)
+                Text("VoiceLog ") + Text(L(.premium).capitalized).foregroundColor(.orange)
             }
             .font(.system(size: 35, weight: .black, design: .monospaced))
             .frame(maxWidth: .infinity, alignment: .leading)

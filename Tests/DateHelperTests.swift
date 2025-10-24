@@ -1,12 +1,12 @@
 //
 //  DateHelperTests.swift
-//  ALogTests
+//  VoiceLogTests
 //
 //  Created by Xin Du on 2023/10/18.
 //
 
 import XCTest
-@testable import ALog
+@testable import VoiceLog
 
 final class DateHelperTests: XCTestCase {
     func testIdentifier() {

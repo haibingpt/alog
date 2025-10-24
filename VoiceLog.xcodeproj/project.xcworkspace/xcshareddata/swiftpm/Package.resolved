@@ -1,4 +1,5 @@
 {
+  "originHash" : "c35139a4f903d8e8dfd49922a8b4b63089dd82084c4a760846dc9813949856ee",
   "pins" : [
     {
       "identity" : "confettiswiftui",
@@ -14,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/yaslab/CSV.swift.git",
       "state" : {
-        "revision" : "81d2874c51db364d7e1d71b0d99018a294c87ac1",
-        "version" : "2.4.3"
+        "revision" : "b4371dc833ba22ab6ead90fb63d267c3cf9ce773",
+        "version" : "2.5.2"
       }
     },
     {
@@ -41,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-log.git",
       "state" : {
-        "revision" : "532d8b529501fb73a2455b179e0bbb6d49b652ed",
-        "version" : "1.5.3"
+        "revision" : "ce592ae52f982c847a4efc0dd881cc9eb32d29f2",
+        "version" : "1.6.4"
       }
     },
     {
@@ -50,10 +51,10 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/techprimate/TPPDF.git",
       "state" : {
-        "revision" : "1955ebbc090a3fb2149fb53e703595c3146689af",
-        "version" : "2.4.1"
+        "revision" : "975049c0e1022922580b7927e030901604024925",
+        "version" : "2.6.1"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }

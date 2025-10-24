@@ -1,6 +1,6 @@
 //
 //  TranscriptionModel.swift
-//  ALog
+//  VoiceLog
 //
 //  Created by Xin Du on 2025/03/22.
 //

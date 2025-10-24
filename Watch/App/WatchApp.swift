@@ -1,6 +1,6 @@
 //
 //  WatchApp.swift
-//  ALogWatch
+//  VoiceLogWatch
 //
 //  Created by Xin Du on 2023/08/04.
 //
@@ -9,7 +9,7 @@ import SwiftUI
 import XLog
 
 @main
-struct ALogWatchApp: App {
+struct VoiceLogWatchApp: App {
     @WKApplicationDelegateAdaptor var delegate: WatchAppDelegate
     
     @StateObject var container = DataContainer.shared

@@ -1,6 +1,6 @@
 //
 //  RecordingView.swift
-//  ALog
+//  VoiceLog
 //
 //  Created by Xin Du on 2023/07/13.
 //

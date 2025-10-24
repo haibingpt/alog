@@ -1,13 +1,13 @@
 //
 //  String+FormattedHostNameTests.swift
-//  ALogTests
+//  VoiceLogTests
 //
 //  Created by Xin Du on 2023/08/09.
 //
 
 import XCTest
 
-@testable import ALog
+@testable import VoiceLog
 
 final class String_ExtensionsTests: XCTestCase {
     

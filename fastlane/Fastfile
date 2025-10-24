@@ -13,7 +13,7 @@ platform :ios do
     })
 
     gym ({
-      scheme: 'ALog'
+      scheme: 'VoiceLog'
     })
 
     upload_to_testflight(
@@ -25,6 +25,6 @@ platform :ios do
   end
 
   lane :tests do
-    run_tests(scheme: "ALog", devices: ["iPhone 15 Pro"])
+    run_tests(scheme: "VoiceLog", devices: ["iPhone 15 Pro"])
   end
 end

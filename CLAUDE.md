@@ -4,7 +4,7 @@
 
 ## 项目概述
 
-ALog 是一个基于 SwiftUI 构建的 iOS 语音日记应用，允许用户录制音频条目，使用语音识别进行转录，并生成 AI 驱动的摘要。该应用包括 watchOS 支持、小组件和用于 AI 处理的 Cloudflare Workers 后端。
+VoiceLog 是一个基于 SwiftUI 构建的 iOS 语音日记应用，允许用户录制音频条目，使用语音识别进行转录，并生成 AI 驱动的摘要。该应用包括 watchOS 支持、小组件和用于 AI 处理的 Cloudflare Workers 后端。
 
 ## 开发命令
 
@@ -43,7 +43,7 @@ npm run start   # 本地开发
 ### 测试
 ```bash
 # 运行单元测试（在 Xcode 中）
-# 测试目标：ALogTests
+# 测试目标：VoiceLogTests
 
 # 运行快照测试
 # 测试目标：SnapshotTests（使用 Snapshot 配置）
@@ -131,19 +131,19 @@ npm run start   # 本地开发
 
 ## URL Scheme
 
-应用支持自定义 URL scheme：`alog://`
+应用支持自定义 URL scheme：`voicelog://`
 - 用于快速操作和 Siri 快捷指令集成
 - 在 `AppState.openURL(_:)` 中处理
 
 ## 测试策略
 
-- **单元测试**：`ALogTests` 目标中的核心逻辑和工具
+- **单元测试**：`VoiceLogTests` 目标中的核心逻辑和工具
 - **快照测试**：`SnapshotTests` 目标中的 UI 组件快照
 - 使用 Snapshot 配置确保一致的测试环境
 
 ## IAP 和高级功能
 
-- 高级产品 ID：`app.haibin.memo.premium`
+- 高级产品 ID：`app.haibin.voicelog.premium`
 - 高级用户的更高每日字符限制
 - 通过 `IAPManager` 服务管理
 

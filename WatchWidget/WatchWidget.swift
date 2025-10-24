@@ -1,6 +1,6 @@
 //
 //  WatchWidget.swift
-//  ALogWatchWidget
+//  VoiceLogWatchWidget
 //
 //  Created by Xin Du on 2023/08/07.
 //
@@ -44,7 +44,7 @@ struct WatchWidgetEntryView : View {
             #endif
         }
         .widgetAccentable()
-        .widgetURL(URL(string: "alog://record")!)
+        .widgetURL(URL(string: "voicelog://record")!)
     }
     
     @ViewBuilder
@@ -71,7 +71,7 @@ struct WatchWidget: Widget {
             WatchWidgetEntryView(entry: entry)
         }
         #if os(watchOS)
-        .configurationDisplayName("ALog")
+        .configurationDisplayName("VoiceLog")
         .description("")
         .supportedFamilies([.accessoryCircular, .accessoryCorner])
         #else

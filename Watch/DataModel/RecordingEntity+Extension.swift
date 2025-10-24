@@ -1,6 +1,6 @@
 //
 //  RecordingEntity+Extension.swift
-//  ALogWatch
+//  VoiceLogWatch
 //
 //  Created by Xin Du on 2023/08/06.
 //

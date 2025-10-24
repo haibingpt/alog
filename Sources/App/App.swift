@@ -1,15 +1,15 @@
 import SwiftUI
 
 @main
-struct ALogApp: App {
+struct VOiceLogApp: App {
     @UIApplicationDelegateAdaptor var delegate: AppDelegate
-    
+
     let container = DataContainer.shared
     let appState = AppState.shared
     let conn = Connectivity.shared
-    
+
     @StateObject var config = Config.shared
-    
+
     var body: some Scene {
         WindowGroup {
             MainView()

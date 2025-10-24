@@ -1,6 +1,6 @@
 //
 //  SnapshotTests.swift
-//  ALogUITests
+//  VoiceLogUITests
 //
 //  Created by Xin Du on 2023/07/23.
 //

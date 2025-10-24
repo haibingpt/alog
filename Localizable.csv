@@ -1,12 +1,12 @@
 "key","comment","en",zh-Hans
 # Plist #
-"@CFBundleDisplayName","应用名称","ALog",ALog
+"@CFBundleDisplayName","应用名称","VoiceLog",VoiceLog
 # General #
-"app_name","应用名称","ALog",ALog
-"review_app","评价","Review ALog",评价 ALog
+"app_name","应用名称","VoiceLog",VoiceLog
+"review_app","评价","Review VoiceLog",评价 VoiceLog
 "rate_on_the_app_store","评分","Rate on the App Store",在 App Store 上评分
 "share_with_friends","分享给朋友","Share with Friends",分享给朋友
-"about_app","关于","About ALog",关于 ALog
+"about_app","关于","About VoiceLog",关于 VoiceLog
 "company","公司","Tarbo Tech, LLC","Tarbo Tech, LLC"
 "done","Done","Done",完成
 "cancel","Cancel","Cancel",取消
@@ -63,7 +63,7 @@ multi_delete_alert,批量删除确认,Are you sure you want to delete %d selecte
 # Premium #
 "premium","Premium","Premium",高级版
 "premium_one_time_upgrade","一次性付费升级","A one-time upgrade",一次性付费升级
-"premium_thanks","感谢升级","Thank you for upgrading to ALog Premium.",感谢您升级到 ALog 高级版
+"premium_thanks","感谢升级","Thank you for upgrading to VoiceLog Premium.",感谢您升级到 VoiceLog 高级版
 "premium_restore_purchase","恢复购买","Restore Purchase",恢复购买
 "premium_summary_num","总结数量","Summaries",总结数量
 "premium_prompt_num","提示词数量","Prompts",提示词数量
@@ -73,9 +73,9 @@ multi_delete_alert,批量删除确认,Are you sure you want to delete %d selecte
 "premium_go_premium","购买按钮 - 展示价格","Go Premium: %@",升级到高级版：%@
 "premium_upgrade_to_premium","升级到高级版","Upgrade to Premium",升级到高级版
 # Permission #
-"permission_mic_title","申请权限 - 标题","Allow ALog to access your microphone?",允许 ALog 访问你的麦克风吗？
+"permission_mic_title","申请权限 - 标题","Allow VoiceLog to access your microphone?",允许 VoiceLog 访问你的麦克风吗？
 "permission_mic_msg","申请权限 - 正文","You can update your choice at any time in Settings.",您可以随时在系统设置中更改你的选择。
-"permission_mic_denied_msg","申请权限 - 正文 (denied)","ALog will not work without access to the microphone.",没有麦克风访问权限，ALog 将无法正常工作。
+"permission_mic_denied_msg","申请权限 - 正文 (denied)","VoiceLog will not work without access to the microphone.",没有麦克风访问权限，VoiceLog 将无法正常工作。
 "permission_not_now","申请权限 - 以后再说","Not now",以后再说
 "permission_allow","申请权限 - 允许","Allow",允许
 "permission_open_settings","申请权限 - 打开设置","Open Settings",打开设置
@@ -165,7 +165,7 @@ I will ask you to:
 "credit_goldengrape_url","Credits - goldengrape - url","https://quail.ink/goldengrape/p/write-diary-with-chatgpt-en",https://quail.ink/goldengrape/p/write-diary-with-chatgpt
 # Watch #
 "watch_permission_title","Watch - 没有权限 - 标题","Microphone Access",麦克风访问权限
-"watch_permission_msg","Watch - 没有权限 - 内容","ALog will not work without access to the microphone. You can enable access in Settings.",没有麦克风访问权限，ALog 将无法正常工作。您可以在系统设置种启用访问权限。
+"watch_permission_msg","Watch - 没有权限 - 内容","VoiceLog will not work without access to the microphone. You can enable access in Settings.",没有麦克风访问权限，VoiceLog 将无法正常工作。您可以在系统设置种启用访问权限。
 "watch_recents","Watch - 最近录音","Recents",最近录音
 "watch_recents_empty","Watch - 没有录音","No Recordings",无录音
 "settings_sum_model","设置 - 总结 - 模型","Summarization Model","总结模型"

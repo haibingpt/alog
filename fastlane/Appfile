@@ -1,5 +1,5 @@
 # https://docs.fastlane.tools/advanced/#appfile
 
-app_identifier("app.haibin.memo")
+app_identifier("app.haibin.voicelog")
 
 team_id("ZTQ4TGAKFX")

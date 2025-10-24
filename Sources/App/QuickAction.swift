@@ -1,6 +1,6 @@
 //
 //  QuickAction.swift
-//  ALog
+//  VoiceLog
 //
 //  Created by Xin Du on 2024/05/11.
 //

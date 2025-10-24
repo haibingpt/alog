@@ -1,8 +1,8 @@
 /*应用名称*/
-"app_name" = "ALog";
+"app_name" = "VoiceLog";
 
 /*评价*/
-"review_app" = "评价 ALog";
+"review_app" = "评价 VoiceLog";
 
 /*评分*/
 "rate_on_the_app_store" = "在 App Store 上评分";
@@ -11,7 +11,7 @@
 "share_with_friends" = "分享给朋友";
 
 /*关于*/
-"about_app" = "关于 ALog";
+"about_app" = "关于 VoiceLog";
 
 /*公司*/
 "company" = "Tarbo Tech, LLC";
@@ -170,7 +170,7 @@
 "premium_one_time_upgrade" = "一次性付费升级";
 
 /*感谢升级*/
-"premium_thanks" = "感谢您升级到 ALog 高级版";
+"premium_thanks" = "感谢您升级到 VoiceLog 高级版";
 
 /*恢复购买*/
 "premium_restore_purchase" = "恢复购买";
@@ -197,13 +197,13 @@
 "premium_upgrade_to_premium" = "升级到高级版";
 
 /*申请权限 - 标题*/
-"permission_mic_title" = "允许 ALog 访问你的麦克风吗？";
+"permission_mic_title" = "允许 VoiceLog 访问你的麦克风吗？";
 
 /*申请权限 - 正文*/
 "permission_mic_msg" = "您可以随时在系统设置中更改你的选择。";
 
 /*申请权限 - 正文 (denied)*/
-"permission_mic_denied_msg" = "没有麦克风访问权限，ALog 将无法正常工作。";
+"permission_mic_denied_msg" = "没有麦克风访问权限，VoiceLog 将无法正常工作。";
 
 /*申请权限 - 以后再说*/
 "permission_not_now" = "以后再说";
@@ -415,7 +415,7 @@
 "watch_permission_title" = "麦克风访问权限";
 
 /*Watch - 没有权限 - 内容*/
-"watch_permission_msg" = "没有麦克风访问权限，ALog 将无法正常工作。您可以在系统设置种启用访问权限。";
+"watch_permission_msg" = "没有麦克风访问权限，VoiceLog 将无法正常工作。您可以在系统设置种启用访问权限。";
 
 /*Watch - 最近录音*/
 "watch_recents" = "最近录音";

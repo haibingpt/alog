@@ -1,6 +1,6 @@
 //
 //  Constants.swift
-//  ALog
+//  VoiceLog
 //
 //  Created by Xin Du on 2023/07/14.
 //
@@ -10,7 +10,7 @@ import Foundation
 struct Constants {
 
     static let api_base_url = URL(string: "https://voicelog.haibingpt.work/")!
-    static let user_agent = "ALog \(AppInfo.appVersion)"
+    static let user_agent = "VoiceLog \(AppInfo.appVersion)"
 
     struct Contact {
         static let twitter = "https://twitter.com/tarbo_du"
@@ -34,7 +34,7 @@ struct Constants {
     }
 
     struct IAP {
-        static let premiumProductId = "app.haibin.memo.premium"
+        static let premiumProductId = "app.haibin.voicelog.premium"
     }
 
     struct Limit {

@@ -24,10 +24,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>app.haibin.memo</string>
+			<string>app.haibin.voicelog</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>alog</string>
+				<string>voicelog</string>
 			</array>
 		</dict>
 	</array>
@@ -40,7 +40,7 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2024 Tarbo Tech, LLC</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>ALog requires access to your microphone so that you can record entries in your journal.</string>
+	<string>VoiceLog requires access to your microphone so that you can record entries in your journal.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>Access to speech recognition functionality is required.</string>
 	<key>UIBackgroundModes</key>
