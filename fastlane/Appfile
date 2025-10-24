@@ -1,5 +1,5 @@
 # https://docs.fastlane.tools/advanced/#appfile
 
-app_identifier("app.tarbo.memo")
+app_identifier("app.haibin.memo")
 
 team_id("ZTQ4TGAKFX")

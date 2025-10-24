@@ -25,6 +25,6 @@
 		<string>audio</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>app.tarbo.memo</string>
+	<string>app.haibin.memo</string>
 </dict>
 </plist>

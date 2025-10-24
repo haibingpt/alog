@@ -4,4 +4,4 @@ type("development")
 
 readonly(true)
 
-app_identifier(["app.tarbo.memo", "app.tarbo.memo.watch", "app.tarbo.memo.watch.widget", "app.tarbo.memo.widget"])
+app_identifier(["app.haibin.memo", "app.haibin.memo.watch", "app.haibin.memo.watch.widget", "app.haibin.memo.widget"])
