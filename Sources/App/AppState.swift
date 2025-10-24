@@ -15,31 +15,35 @@ import KeychainAccess
 
 class AppState: ObservableObject {
     static let shared = AppState()
-    
+
     private init() {
         if UserDefaults.standard.bool(forKey: PREMIUM_KEY) {
             isPremium = true
             UserDefaults.standard.removeObject(forKey: PREMIUM_KEY)
+            } else if keychain[string: PREMIUM_KEY] != nil {
+                isPremium = true
         } else {
-            isPremium = keychain[string: PREMIUM_KEY] != nil
+                // 默认为 true，自动开通内购
+                isPremium = true
+                keychain[string: PREMIUM_KEY] = "1"
         }
     }
-    
+
     private let l10n = XLang.shared
     private let keychain = Keychain(service: Bundle.main.bundleIdentifier!)
-    
+
     @Published var language: Language = XLang.shared.currentLang {
         didSet {
             l10n.setLang(language)
         }
     }
-    
+
     @Published var micPermission: AVAudioSession.RecordPermission = .undetermined
-    
+
     @Published var activeSheet: ActiveSheet?
     @Published var activeTab: Int = 0
     @Published var showRecording = false
-    
+
     private let PREMIUM_KEY = "is_premium"
     @Published var isPremium: Bool = false {
         didSet {
@@ -50,12 +54,12 @@ class AppState: ObservableObject {
             }
         }
     }
-    
+
     func checkMicPermission() {
         let audioSession = AVAudioSession.sharedInstance()
         micPermission = audioSession.recordPermission
     }
-    
+
     func startRecording() {
         guard showRecording == false else { return }
         guard micPermission != .denied else {
@@ -69,7 +73,7 @@ class AppState: ObservableObject {
             self.showRecording = true
         }
     }
-    
+
     func startCreatingNote() {
         guard showRecording == false else { return }
         guard activeSheet != .quickMemo else { return }
@@ -88,7 +92,7 @@ class AppState: ObservableObject {
         activeTab = 0
         activeSheet = .summarize(SummaryItem.day(today))
     }
-    
+
     func openURL(_ url: URL) {
         guard let host = url.host() else { return }
         switch host {
@@ -101,7 +105,7 @@ class AppState: ObservableObject {
         default: return
         }
     }
-    
+
     func canStartRecording() -> Bool {
         guard showRecording == false else { return false }
         guard micPermission != .denied else {
@@ -113,5 +117,5 @@ class AppState: ObservableObject {
         AudioPlayer.shared.stop()
         return true
     }
-    
+
 }
